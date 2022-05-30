@@ -50,22 +50,25 @@ header p {
   margin: 0 auto;
 }
 
-section {
+main {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 2rem;
+  
 }
+section {
 
-main {
   display: grid;
   gap: 30px;
   max-width: 1120px;
   margin: 3rem auto;
   align-items: center;
 }
+
+
 
 .card {
   position: relative;
@@ -143,7 +146,7 @@ footer {
 @media screen and (min-width: 900px) {
   h1,
   h2 {
-    font-size: 32px;
+    font-size: 2.2rem;
   }
 
   main {
